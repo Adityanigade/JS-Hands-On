@@ -19,6 +19,7 @@ console.log("isWorking: " + isWorking + " Data Type: " + typeof isWorking);
 
 console.log("=====4=====");
 
+
 var totalCount = "Hundred and Seven";
 console.log("Total Count is: " + totalCount + " Data Type: " + typeof totalCount);
 totalCount = 107;
