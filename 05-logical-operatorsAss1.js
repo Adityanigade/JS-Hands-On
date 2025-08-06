@@ -11,9 +11,7 @@ console.log(`Greater number btween ${n1} and ${n2} is: ${result}`);
 
 }
  greaterNumber(10, -10);
-
-
-greaterNumber(800, 899);
+ greaterNumber(800, 899);
 
 
 
