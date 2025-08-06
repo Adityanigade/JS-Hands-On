@@ -2,18 +2,19 @@ console.log("================Find Greater Number================================
 
 
 function greaterNumber(n1, n2){
-var result = n1>n2 ? n1 :n2;
-return result ;
 
+result = n1>n2 ? n1 : n2;
 
+console.log(`Greater number btween ${n1} and ${n2} is: ${result}`);
 
 
 
 }
-var  result= greaterNumber(10, -10);
-console.log(`Greater number btween 10 and -10 is: ${result}`);
-var result = greaterNumber(800, 899);
-console.log(`Greater number btween 800 and 899 is: ${result}`);
+ greaterNumber(10, -10);
+
+
+greaterNumber(800, 899);
+
 
 
 console.log("================Even or Odd Number=================================");
