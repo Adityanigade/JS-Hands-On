@@ -12,7 +12,7 @@ fruits.splice(4,0,"Dragon Fruit")
 console.log(`5 add element before water melon: ${fruits}`);
 console.log(`6 replace Orange with kiwi: ${fruits[2]="Kiwi"}`);
 console.log(`7 Element stating from index 1 to 4 is : ${fruits.slice(1,4)}`);
-console.log(`8 only last three element is : ${fruits[fruits.length-3]},${fruits[fruits.length-2]},${fruits[fruits.length-1]}`);
+console.log(`8 only last three element is : ${fruits.slice(fruits.length-3)}`);
 
 
 
